@@ -1,0 +1,26 @@
+.main {
+  @extend .container-fluid;
+  .photo {
+    @extend .col-xs-9;
+    @extend .col-md-10;
+    @extend .col-xs-offset-3;
+    @extend .col-md-offset-2;
+    top: 60px;
+    padding-left: 25px;
+    .body {
+      margin-top: 20px;
+      .row {
+        width: 94%;
+      }
+    }
+    .modal-body {
+      text-align: center;
+      img {
+        width: 90%;
+      }
+    }
+    .thumbnail {
+      cursor: pointer;
+    }
+  }
+}

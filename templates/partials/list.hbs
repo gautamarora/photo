@@ -1,0 +1,13 @@
+<div class="photo">
+  <div class="body">
+    <div class="row">
+    {{#each photo}}
+      <div class="col-md-3">
+          <a class="thumbnail">
+            <img src="{{this.url}}" alt="{{this.title}}" data-seen="false">
+          </a>
+      </div>
+    {{/each}}
+    {{> photo-modal}}
+  </div>
+</div>
