@@ -1,6 +1,6 @@
 {
   "name": "@gautamarora/photo",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "microapp - photo",
   "main": "./app/index.js",
   "browser": "./client/self/index.js",
@@ -11,6 +11,8 @@
   "author": "Gautam Arora",
   "license": "ISC",
   "dependencies": {
+    "@gautamarora/core": "^0.0.1",
+    "@gautamarora/header": "^0.0.1",
     "xtend": "^4.0.1"
   }
 }
