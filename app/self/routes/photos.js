@@ -13,7 +13,7 @@ function processData(req, res, cb) {
   cb(null, 'photo', req, res);
 }
 
-function mergeData(err, component, req, res) {
+function mergeData(err, microapp, req, res) {
   if(Object.keys(res.data).length === microapps.length + 2) { //+1 for self, +1 for db in the data map
     processMergedData(req, res);
   }
